@@ -1,5 +1,6 @@
 package com.example;
 
+import com.example.item.ModItemGroups;
 import com.example.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -23,5 +24,6 @@ public class ParticleTry implements ModInitializer {
 
 		ModItems.registerModItems();
 		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerModItemGroups();
 	}
 }
